@@ -63,5 +63,16 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+       <!--  加密 -->
+      <!--  <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot</artifactId>
+            <version>1.5-java7</version>
+        </dependency> -->
+        <dependency>
+		    <groupId>com.github.ulisesbocchio</groupId>
+		    <artifactId>jasypt-spring-boot-starter</artifactId>
+		    <version>1.5-java7</version>
+		</dependency>
     </dependencies>
 </project>
